@@ -4,10 +4,12 @@
 
 # Step 1:
 # This is your Docker ID/path
-# dockerpath=<>
+dockerpath=sam2g/dev
 
 # Step 2
 # Run the Docker Hub container with kubernetes
+kubectl run development --image=sam2g/dev --port=80
+
 
 
 # Step 3:
