@@ -14,7 +14,8 @@ kubectl run development --image=sam2g/dev --port=80
 
 # Step 3:
 # List kubernetes pods
+kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
-
+kubectl expose deployment development --type=LoadBalancer --port=8000 --target-port=80
