@@ -1,4 +1,3 @@
-![CircleCI](https://circleci.com/gh/manishbisht/Operationalize-a-Machine-Learning-Microservice-API.svg?style=svg)
 
 ## Project Overview
 
